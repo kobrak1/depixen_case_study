@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react"
-import { db } from '../firebase'
+import { db } from '../firebase/config'
 import { collection, getDocs, addDoc } from 'firebase/firestore'
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import PropTypes from 'prop-types'
